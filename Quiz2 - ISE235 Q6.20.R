@@ -1,5 +1,4 @@
-rawdata = read.csv("Q6.20Data.csv", 
-                   header=TRUE)
+rawdata = read.csv("Q6.20Data.csv",header=TRUE)
 
 rawdata
 n=5
