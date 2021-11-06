@@ -20,13 +20,13 @@ Column = cbind(x,y)
 row = rbind(x,y)
 Column
 row
-m <- 1:12
+m <- 13:24
 
 # Arranging the values from 1 to 12 into a matrix. use either nrow or ncol to determine number of rows or columns
 # byrow - if True arranges the values by rows and if false, arranges the values by columns 
 matrix(1:12,nrow = 3,byrow = T)
 matrix(1:12,nrow = 3,byrow = F)
-matrix(1:12,ncol = 3,byrow = T)
+matrix(m,ncol = 3,byrow = T)
 m <- matrix(1:12,ncol = 3,byrow = F)
 m
 
